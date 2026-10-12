@@ -1,59 +1,99 @@
 # Aditya Srivastav — Portfolio
 
-A responsive personal portfolio for Data Science, Machine Learning, NLP, and Generative AI projects. It is built with **one HTML file** containing its own CSS and JavaScript—no framework, build step, or package installation required.
+> Data Science · Machine Learning · NLP · Generative AI
 
-## Files
+🌐 **Live Portfolio:** https://adisri547.github.io/Portfolio3.0/
 
-- `index.html` — complete website (HTML, CSS, and JavaScript)
-- `README.md` — setup and deployment instructions
+Welcome to my personal portfolio. This website showcases my background, selected projects, technical skills, education, and experience in data science and applied AI.
 
-## Preview locally
+## About Me
 
-1. Download or clone this repository.
-2. Open `index.html` in your browser.
+I'm Aditya Srivastav, currently pursuing an **M.Tech in Data Science at Delhi Technological University (DTU)**. I enjoy building practical solutions with machine learning, natural language processing, computer vision, retrieval-augmented generation (RAG), and agentic AI workflows.
 
-For a local development server, you can use the VS Code **Live Server** extension, but it is optional.
+My goal is to turn data and AI techniques into useful, reliable applications.
 
-## Personalize before publishing
+## Featured Projects
 
-Open `index.html` and update these placeholders:
+### AI Customer Feedback Analytics Platform
+- Processed **150,000+ product reviews** using Python, SQL, and NLP.
+- Applied TF-IDF, Logistic Regression, Aspect-Based Sentiment Analysis, BERTopic, and KeyBERT.
+- Reported **92% sentiment classification accuracy** and identified 150+ recurring product issues.
+- Built an interactive dashboard for sentiment trends, topic modeling, and product health insights.
 
-1. Search for `data-placeholder-link` and replace the `href="#"` values for GitHub and LinkedIn with your actual profile URLs.
-2. Add live demo or GitHub repository links to the project cards if available.
-3. Review the project descriptions and reported metrics to ensure they accurately reflect your work.
-4. If you want visitors to download your resume, add the PDF to the repository (for example, `resume.pdf`) and add a link to it in the hero section.
+**Tech:** Python, Scikit-learn, spaCy, SQL, TF-IDF, BERTopic, KeyBERT
 
-Your email is currently set to `adityasrivastav76@gmail.com`.
+### AI Support Ticket Agent
+- Built an AI-powered ticket triage workflow using retrieval-augmented generation.
+- Retrieved relevant knowledge-base articles to ground classification and response generation.
+- Classified tickets by category, priority, and confidence, and drafted responses or escalated complex cases.
+- Developed streaming APIs and a web interface to expose retrieval, classification, and routing stages.
 
-## Deploy with GitHub Pages
+**Tech:** LangGraph, LangChain, FAISS, FastAPI, Ollama, RAG, `nomic-embed-text`
 
-1. Create a new **public** repository on GitHub, such as `aditya-portfolio`.
-2. Upload `index.html` and `README.md` to the repository root. Keep the main file named exactly `index.html`.
-3. Open the repository on GitHub and go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/(root)` folder, then click **Save**.
-6. Wait for GitHub Pages to publish. The URL will usually look like:
-   `https://YOUR-USERNAME.github.io/aditya-portfolio/`
-7. Visit the URL shown in the Pages settings. Future commits to the selected branch will update the site.
+### Sign Bridge — Sign Language Detection
+- Processed 12,000+ video frames with MediaPipe and OpenCV.
+- Trained a hybrid CNN-LSTM model on 25,000+ gesture samples.
+- Achieved 85% classification accuracy across 30+ sign classes.
+- Optimized inference to under 120 ms per frame for near-real-time sign-to-text conversion.
 
-If you name the repository `YOUR-USERNAME.github.io`, GitHub Pages can publish it at the root URL `https://YOUR-USERNAME.github.io/`.
+**Tech:** Python, MediaPipe, OpenCV, CNN-LSTM, Computer Vision
 
-## Alternative: Netlify
+### Software Development Internship — HighRadius
+- Developed Java and Selenium automation for password rotation and data extraction.
+- Synced credential updates to databases and helped prevent client portal login failures.
+- Debugged production issues and collaborated with developers in an Agile environment.
 
-You can also deploy without GitHub Pages:
-1. Sign in to Netlify.
-2. Choose **Add new site / Deploy manually**.
-3. Drag in the folder containing `index.html`.
-4. Netlify will provide a public URL.
+**Tech:** Java, Selenium, SQL, Workflow Automation
 
-## Tech used
+## Technical Skills
 
-- Semantic HTML5
-- CSS (responsive layout, dark theme, animations, reduced-motion support)
-- Vanilla JavaScript (mobile navigation, reveal-on-scroll, copy-email button, back-to-top control)
+- **Languages:** Python, Java, C/C++, SQL, R
+- **Machine Learning & AI:** Machine Learning, Deep Learning, YOLOv8, NLP
+- **Generative AI:** LLMs, RAG, LangChain, LangGraph, Prompt Engineering, Agentic AI, Hugging Face
+- **Databases:** SQL, Joins, CTEs, Window Functions, DDL, DML
+- **Core CS:** Data Structures & Algorithms, DBMS, Operating Systems, OOP
 
-## Notes
+## Education
 
-- No external JavaScript or CSS libraries are required.
-- Social links are placeholders until you replace them with your real profile URLs.
-- The page is responsive and uses normal document scrolling; it does not create a nested scroll area.
+- **M.Tech in Data Science** — Delhi Technological University, Delhi  
+  August 2025 – Present · CGPA: 8.654
+- **B.Tech in Computer Science and Engineering** — Kalinga Institute of Industrial Technology, Bhubaneswar  
+  August 2020 – June 2024 · CGPA: 8.59
+
+## Achievement
+
+- **GATE 2026 — Computer Science:** Qualified · AIR 4259 · Marks: 50.24/100
+
+## Contact
+
+- **Email:** [adityasrivastav76@gmail.com](mailto:adityasrivastav76@gmail.com)
+- **Portfolio:** https://adisri547.github.io/Portfolio3.0/
+
+Connect with me on GitHub and LinkedIn through the links on my portfolio.
+
+## Tech Stack
+
+This portfolio is a static website hosted on GitHub Pages. It uses HTML, CSS, and JavaScript and does not require a server or backend.
+
+## Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/adisri547/Portfolio3.0.git
+   ```
+
+2. Open the repository folder.
+3. Open `index.html` in your browser. No package installation or build step is needed for a plain static HTML site.
+
+## Deployment
+
+The live site is published with **GitHub Pages**:
+
+**https://adisri547.github.io/Portfolio3.0/**
+
+To update the site, commit and push your changes to the repository branch configured in GitHub Pages.
+
+---
+
+*Thanks for visiting my portfolio!*
